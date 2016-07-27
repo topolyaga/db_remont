@@ -47,7 +47,7 @@ require('../inc/sys/head.php');
                             case 'На осмотре': echo '<div class="sp-status tss-view">На осмотре</div>'; break;
                             case 'Выходной': echo '<div class="sp-status tss-output">Выходной</div>'; break;
                             case 'Под подозрением': echo '<div class="sp-status tss-suss">Под подозрением</div>'; break;
-                            case 'Черный список': echo '<div class="sp-status tss-bl">Черный список</div>'; break;
+                            case 'Черный список': echo '<div class="sp-status tss-bl">Черный сописок</div>'; break;
                         }
                         ?>
                         
