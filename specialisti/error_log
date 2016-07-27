@@ -1,0 +1,87 @@
+[07-Jul-2016 19:10:36 Europe/Moscow] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 158
+[07-Jul-2016 19:10:41 Europe/Moscow] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 158
+[07-Jul-2016 19:11:00 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:170
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(170): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 170
+[07-Jul-2016 19:22:48 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|| `id_categorys` LIKE "%6%"|| `id_categorys` LIKE "%8%")' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:203
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(203): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 203
+[07-Jul-2016 19:23:14 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|| `id_categorys` LIKE "%6%"|| `id_categorys` LIKE "%8%")' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:205
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(205): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 205
+[07-Jul-2016 20:18:49 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== Свободен)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 20:19:08 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== "Свободен")' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 20:19:18 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== "Свободен")' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 20:20:54 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== "Свободен")' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 20:56:51 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 20:57:10 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT )' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 20:57:17 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 20:57:45 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:292
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(292): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 292
+[07-Jul-2016 21:03:29 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:308
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(308): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 308
+[07-Jul-2016 21:03:31 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:308
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(308): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 308
+[07-Jul-2016 21:03:38 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:308
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(308): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 308
+[07-Jul-2016 21:03:50 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:308
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(308): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 308
+[07-Jul-2016 21:03:58 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:308
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(308): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 308
+[07-Jul-2016 21:03:59 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *)' at line 1' in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php:308
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php(308): PDOStatement->execute()
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/specialisti/list.php on line 308

@@ -1,0 +1,21 @@
+[13-Jul-2016 00:34:24 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ansubject' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php:14
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php(14): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/specialisti/work/update_specialist.php(54): sendEventForSpecialist('9', 'update_status', '1', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php on line 14
+[13-Jul-2016 00:36:04 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ansubject' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php:14
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php(14): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/specialisti/work/update_specialist.php(54): sendEventForSpecialist('9', 'update_status', '0', '1', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php on line 14
+[18-Jul-2016 00:05:33 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sub_type' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php:15
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php(15): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/specialisti/work/update_specialist.php(117): sendEventForSpecialist('1', 'comment', NULL, '1', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', 0)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events_for_specialist.php on line 15
+[19-Jul-2016 14:21:48 Europe/Moscow] PHP Parse error:  syntax error, unexpected '.' in /home/r62447/sites/baza-remontprofi.ru/specialisti/work/get_specialist_info.php on line 156
+[19-Jul-2016 14:21:50 Europe/Moscow] PHP Parse error:  syntax error, unexpected '.' in /home/r62447/sites/baza-remontprofi.ru/specialisti/work/get_specialist_info.php on line 156
+[19-Jul-2016 14:22:02 Europe/Moscow] PHP Parse error:  syntax error, unexpected '.' in /home/r62447/sites/baza-remontprofi.ru/specialisti/work/get_specialist_info.php on line 156

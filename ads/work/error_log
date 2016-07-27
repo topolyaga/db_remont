@@ -1,0 +1,50 @@
+[05-Jul-2016 13:59:08 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/r62427/sites/dbremont/ads/work/add_new_ads.php:29
+Stack trace:
+#0 /home/r62427/sites/dbremont/ads/work/add_new_ads.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/ads/work/add_new_ads.php on line 29
+[05-Jul-2016 14:01:58 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/r62427/sites/dbremont/ads/work/add_new_ads.php:29
+Stack trace:
+#0 /home/r62427/sites/dbremont/ads/work/add_new_ads.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/ads/work/add_new_ads.php on line 29
+[05-Jul-2016 14:02:01 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/r62427/sites/dbremont/ads/work/add_new_ads.php:29
+Stack trace:
+#0 /home/r62427/sites/dbremont/ads/work/add_new_ads.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/ads/work/add_new_ads.php on line 29
+[05-Jul-2016 14:03:37 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'description' cannot be null' in /home/r62427/sites/dbremont/ads/work/add_new_ads.php:29
+Stack trace:
+#0 /home/r62427/sites/dbremont/ads/work/add_new_ads.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/ads/work/add_new_ads.php on line 29
+[05-Jul-2016 14:07:09 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'description' cannot be null' in /home/r62427/sites/dbremont/ads/work/add_new_ads.php:29
+Stack trace:
+#0 /home/r62427/sites/dbremont/ads/work/add_new_ads.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/ads/work/add_new_ads.php on line 29
+[05-Jul-2016 17:51:34 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/r62427/sites/dbremont/ads/work/add_new_ads.php:33
+Stack trace:
+#0 /home/r62427/sites/dbremont/ads/work/add_new_ads.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/ads/work/add_new_ads.php on line 33
+[05-Jul-2016 17:51:48 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null' in /home/r62427/sites/dbremont/ads/work/add_new_ads.php:33
+Stack trace:
+#0 /home/r62427/sites/dbremont/ads/work/add_new_ads.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/ads/work/add_new_ads.php on line 33
+[12-Jul-2016 00:14:47 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php:33
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php on line 33
+[12-Jul-2016 00:15:48 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php:33
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php on line 33
+[12-Jul-2016 00:15:54 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php:33
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/ads/work/add_new_ads.php on line 33

@@ -1,0 +1,190 @@
+[01-Jul-2016 11:51:28 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'specialist_categorys.id' in 'order clause'' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:41
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 41
+[01-Jul-2016 11:52:03 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 33
+[01-Jul-2016 11:52:03 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'specialist_categorys.id' in 'order clause'' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:41
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 41
+[01-Jul-2016 11:52:19 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 33
+[01-Jul-2016 11:52:40 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 33
+[01-Jul-2016 11:52:41 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 33
+[01-Jul-2016 11:52:42 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 33
+[01-Jul-2016 11:52:44 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 33
+[01-Jul-2016 14:04:32 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'2016-07-01'% ORDER BY  `orders`.`id` DESC  LIMIT 0,1' at line 1' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:46
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 46
+[01-Jul-2016 14:24:04 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 38
+[01-Jul-2016 14:24:04 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:113
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(113): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 113
+[01-Jul-2016 14:24:10 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 38
+[01-Jul-2016 14:24:10 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:113
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(113): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 113
+[01-Jul-2016 22:48:54 Europe/Moscow] PHP Warning:  require_once(../../inc/core/events.php): failed to open stream: No such file or directory in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 7
+[01-Jul-2016 22:48:54 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '../../inc/core/events.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 7
+[01-Jul-2016 22:49:32 Europe/Moscow] PHP Warning:  require_once(../../inc/core/events.php): failed to open stream: No such file or directory in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 7
+[01-Jul-2016 22:49:32 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '../../inc/core/events.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 7
+[01-Jul-2016 22:49:36 Europe/Moscow] PHP Warning:  require_once(../../inc/core/events.php): failed to open stream: No such file or directory in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 7
+[01-Jul-2016 22:49:36 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '../../inc/core/events.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 7
+[01-Jul-2016 22:50:57 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 22:50:57 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:114
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(114): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 114
+[01-Jul-2016 22:51:16 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62427/sites/dbremont/inc/core/events.php:34
+Stack trace:
+#0 /home/r62427/sites/dbremont/inc/core/events.php(34): PDOStatement->execute(Array)
+#1 /home/r62427/sites/dbremont/orders/work/add_new_order.php(134): goEvent('order', '1', '7', '\xD0\x9D\xD0\xBE\xD0\xB2\xD1\x8B\xD0\xB9', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...')
+#2 {main}
+  thrown in /home/r62427/sites/dbremont/inc/core/events.php on line 34
+[01-Jul-2016 22:54:33 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 22:54:33 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:114
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(114): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 114
+[01-Jul-2016 22:54:52 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 22:54:52 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:114
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(114): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 114
+[01-Jul-2016 22:57:44 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 22:57:44 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:78
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(78): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 78
+[01-Jul-2016 22:58:07 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 22:58:07 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:78
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(78): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 78
+[01-Jul-2016 22:59:22 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 22:59:22 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:78
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(78): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 78
+[01-Jul-2016 22:59:55 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 22:59:55 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:78
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(78): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 78
+[01-Jul-2016 23:00:05 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 23:00:05 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:78
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(78): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 78
+[01-Jul-2016 23:00:12 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 23:00:12 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:78
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(78): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 78
+[01-Jul-2016 23:00:14 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 23:00:14 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'about_object' cannot be null' in /home/r62427/sites/dbremont/orders/work/add_new_order.php:78
+Stack trace:
+#0 /home/r62427/sites/dbremont/orders/work/add_new_order.php(78): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 78
+[01-Jul-2016 23:01:30 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[01-Jul-2016 23:01:53 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/r62427/sites/dbremont/orders/work/add_new_order.php on line 39
+[14-Jul-2016 17:03:36 Europe/Moscow] PHP Parse error:  syntax error, unexpected end of file in /home/r62447/sites/baza-remontprofi.ru/orders/work/add_new_order.php on line 120
+[19-Jul-2016 13:06:01 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[19-Jul-2016 13:07:02 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[19-Jul-2016 13:07:10 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[19-Jul-2016 13:08:22 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[19-Jul-2016 13:09:05 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[19-Jul-2016 13:12:39 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[19-Jul-2016 13:12:57 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[19-Jul-2016 13:14:09 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dop_id_subject_1' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php:37
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php(37): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/update_order_info.php(238): goEvent('order', 'spec_add', '1', '76', '\xD0\x9D\xD0\xB0\xD0\xB7\xD0\xBD\xD0\xB0\xD1\x87\xD0\xB5\xD0...', '\xD0\x9C\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1...', NULL)
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/events.php on line 37
+[25-Jul-2016 16:08:20 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'field list'' in /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php:34
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php on line 34
+[25-Jul-2016 16:09:09 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'field list'' in /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php:34
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php on line 34
+[25-Jul-2016 16:10:32 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'field list'' in /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php:34
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php on line 34
+[25-Jul-2016 23:24:15 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_sms_smsru' cannot be null' in /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php:39
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php(39): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php(48): addSmsForLog(NULL, '1', '85', '1', '201')
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php on line 39
+[25-Jul-2016 23:31:08 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; '89284104722', '1', '85', '1', '231')' at line 1' in /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php:39
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php(39): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php(48): addSmsForLog('89284104722', '1', '85', '1', '231')
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php on line 39
+[25-Jul-2016 23:33:55 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; '201630-1000006', '1', '85', '1', '100')' at line 1' in /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php:39
+Stack trace:
+#0 /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php(39): PDOStatement->execute(Array)
+#1 /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php(48): addSmsForLog('201630-1000006', '1', '85', '1', '100')
+#2 {main}
+  thrown in /home/r62447/sites/baza-remontprofi.ru/inc/core/send_sms.php on line 39
+[26-Jul-2016 00:32:21 Europe/Moscow] PHP Fatal error:  Call to undefined function goEventв() in /home/r62447/sites/baza-remontprofi.ru/orders/work/send_contacts_for_specialist.php on line 71
